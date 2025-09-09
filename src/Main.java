@@ -25,7 +25,7 @@ public class Main {
         } else if (timeOfDay.equalsIgnoreCase("nat") && traffic.equalsIgnoreCase("høj") || areaType.equalsIgnoreCase("bolig") && traffic.equalsIgnoreCase("høj")){
             lightColor = "RØDT - trafikken er stoppet!";
         } else {
-            lightColor = "INGEN - Uden for logik farveregime";
+            lightColor = "INGEN - uden for logik farveregime";
         }
 
         // Adgangsbetingelser
